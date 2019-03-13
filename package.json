@@ -1,0 +1,50 @@
+{
+  "name": "paab-code-search",
+  "version": "1.0.0",
+  "description": "React datatable search component for PAAB-Code",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "webpack --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Innovasium-2014/PAAB-Code.git"
+  },
+  "author": "Julia Sotnyk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Innovasium-2014/PAAB-Code/issues"
+  },
+  "homepage": "https://github.com/Innovasium-2014/PAAB-Code#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.6",
+    "@fortawesome/free-solid-svg-icons": "^5.4.1",
+    "@fortawesome/react-fontawesome": "^0.1.3",
+    "@material-ui/core": "^3.2.1",
+    "@material-ui/icons": "^3.0.1",
+    "axios": "^0.18.0",
+    "core-js": "^2.5.7",
+    "es6-symbol": "^3.1.1",
+    "js-polyfills": "^0.1.42",
+    "jss-global": "^3.0.0",
+    "lodash": "^4.17.11",
+    "mui-datatables": "^2.0.0-beta-32",
+    "raf": "^3.4.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-localization": "^1.0.13"
+  }
+}
